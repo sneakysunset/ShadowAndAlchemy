@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 3688353848631314016}
   m_Layer: 0
   m_Name: PlantKiller_Enemi
-  m_TagString: Untagged
+  m_TagString: Enemi
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -193,5 +193,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2cefc5bbb247d744934b0fc0e50fc7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3
+  moveSpeed: 2
   targetTag: Plant

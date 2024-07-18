@@ -6,7 +6,7 @@ public class PlantKillerEnemi : EnemyAI
 {
     void Start()
     {
-        moveSpeed = 3f;
-        targetTag = "Plant";
+        //moveSpeed = 2f;
+        //targetTag = "Plant";
     }
 }

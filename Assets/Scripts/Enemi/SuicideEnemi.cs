@@ -6,7 +6,7 @@ public class SuicideEnemi : EnemyAI
 {
     void Start()
     {
-        moveSpeed = 5f;
-        targetTag = "House";
+        //moveSpeed = 3f;
+        //targetTag = "House";
     }
 }

@@ -6,7 +6,7 @@ public class PlayerKillerEnemi : EnemyAI
 {
     void Start()
     {
-        moveSpeed = 2f;
-        targetTag = "Player";
+        //moveSpeed = 1f;
+        //targetTag = "Player";
     }
 }
