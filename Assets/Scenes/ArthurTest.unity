@@ -181,7 +181,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.16958883, g: 0.3490566, b: 0.1827206, a: 1}
+  m_Color: {r: 0.7075472, g: 0.5416324, b: 0.383811, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -201,8 +201,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 8, y: 8, z: 8}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 8, y: 7, z: 8}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -220,7 +220,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1497747508644084608, guid: fcaa0e76755352e49a213d6a72df14fa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.16
+      value: 2.701
       objectReference: {fileID: 0}
     - target: {fileID: 1497747508644084608, guid: fcaa0e76755352e49a213d6a72df14fa, type: 3}
       propertyPath: m_LocalPosition.z
@@ -299,7 +299,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.23362406, g: 0.3962264, b: 0.24840608, a: 0}
+  m_BackGroundColor: {r: 0.2784314, g: 0.3921569, b: 0.16862746, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -561,7 +561,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1497747508644084608, guid: fcaa0e76755352e49a213d6a72df14fa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.24
+      value: -2.801
       objectReference: {fileID: 0}
     - target: {fileID: 1497747508644084608, guid: fcaa0e76755352e49a213d6a72df14fa, type: 3}
       propertyPath: m_LocalPosition.z
@@ -752,10 +752,6 @@ PrefabInstance:
       propertyPath: waveTimerText
       value: 
       objectReference: {fileID: 1962667187}
-    - target: {fileID: 2396839816572983609, guid: 59acc0658f3f59d4b8a064145c9720de, type: 3}
-      propertyPath: numberOfEnemiesToSpawn
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 3847244417825747142, guid: 59acc0658f3f59d4b8a064145c9720de, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -817,6 +813,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 623754484335437163, guid: e27ffd7e1ae262e4daa4aa07ea49b604, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -14.2
+      objectReference: {fileID: 0}
     - target: {fileID: 2896287415972875566, guid: e27ffd7e1ae262e4daa4aa07ea49b604, type: 3}
       propertyPath: m_Name
       value: Canvas
