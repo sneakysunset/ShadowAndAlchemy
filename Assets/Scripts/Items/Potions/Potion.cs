@@ -7,7 +7,8 @@ public class Potion : MonoBehaviour, IGrabbable
     [SerializeField] private float _BaseTimeToThrow;
     [SerializeField] private float _MaxThrowRange;
     [SerializeField] private AnimationCurve _ThrowTimeByDistanceCurve;
-    [SerializeField] private AnimationCurve _ThrowSpeedAtDistanceCurve; 
+    [SerializeField] private AnimationCurve _ThrowSpeedAtDistanceCurve;
+    [SerializeField] private GameObject _HighlightItem;
     private bool _IsHeld;
     private bool _IsThrown;
 
@@ -91,5 +92,20 @@ public class Potion : MonoBehaviour, IGrabbable
                 StopCoroutine(_ThrowEnumHandler);
             OnThrowEnd();
         }
+    }
+
+    public void OnEnterRange()
+    {
+        _HighlightItem.SetActive(true);
+    }
+
+    public void OnExitRange()
+    {
+        _HighlightItem.SetActive(false);
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireSphere(transform.position, _MaxThrowRange);
     }
 }
